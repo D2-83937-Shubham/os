@@ -1,0 +1,118 @@
+assignment 1
+
+1) man man
+2)uname 
+Linux
+
+3)pwd
+/home/sunbeam/1_sunbeam-modules/DAC/classwork/os/os_lab_practice
+
+4)hostname
+sunbeam-Aspire-A715-42G
+
+5) date
+Friday 31 May 2024 05:41:32 PM IST
+
+6) cal
+      May 2024        
+Su Mo Tu We Th Fr Sa  
+          1  2  3  4  
+ 5  6  7  8  9 10 11  
+12 13 14 15 16 17 18  
+19 20 21 22 23 24 25  
+26 27 28 29 30 31     
+
+7)ls
+Assignments  day01  OS_Galvin_Slides.pdf  os_lab_practice
+
+8)dir
+Assignments  day01  OS_Galvin_Slides.pdf  os_lab_practice
+
+9)cat > question1.txt
+this is assignment 1
+at question1.txt 
+this is assignment 1
+
+10)cat >> question1.txt
+shubham
+
+11)cat que.txt
+this is assignment 1
+shubham
+
+12)cp ans.txt question1.txt
+
+13)cat que.txt
+this is assignment 1
+shubham
+
+14)tac 
+shubbham
+gade 
+my name
+is  
+is 
+my name
+gade 
+shubbham
+
+15)rev 
+shubham gade my name is 
+ si eman ym edag mahbuhs
+
+
+16)wc
+shubham ratnkar gade pursuing pgdac
+and got placed
+      2       8      51
+17)s
+ans.txt      day01  OS_Galvin_Slides.pdf  question1.txt  shubham
+Assignments  gade   os_lab_practice       que.txt
+
+18)touch que.txt      
+ls -l *
+-rw-rw-r-- 1 sunbeam sunbeam       29 May 31 18:23 que.txt
+
+
+19)sort 
+shubham gade 
+nimgoan chobha 
+tal ashti dist beed
+pgdac
+nimgoan chobha 
+pgdac
+shubham gade 
+tal ashti dist beed
+
+20) tail  que.txt
+this is assignment 1
+shubham
+shubhamm shubham shubham
+
+21)head que.txt
+this is assignment 1
+shubham
+shubhamm shubham shubham
+
+22)factor 48
+48: 2 2 2 2 3
+
+
+27) echo $PATH
+/home/sunbeam/.nvm/versions/node/v20.12.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+
+28)ps
+    PID TTY          TIME CMD
+   4422 pts/0    00:00:00 bash
+   7286 pts/0    00:00:00 ps
+
+29)kill 
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+
+30) env
+SHELL=/bin/bash
+SESSION_MANAGER=local/sunbeam-Aspire-A715-42G:@/tmp/.ICE-unix/1763,unix/sunbeam-Aspire-A715-42G:/tmp/.ICE-unix/1763
+QT_ACCESSIBILITY=1
+COLORTERM=truecolor
+
+
