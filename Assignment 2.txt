@@ -1,0 +1,150 @@
+Name: Rohit Patil
+------------------------------------------------------------------------------------------------
+1)
+ls -l -S -t
+total 24
+-rw-rw-r-- 1 sunbeam sunbeam   19 Jun  1 17:08 Assignment02.txt
+-rw-rw-r-- 1 sunbeam sunbeam 2693 May 31 19:07 Assignment01.txt
+-rw-rw-r-- 1 sunbeam sunbeam  252 May 31 18:39 index1.txt
+-rw-rw-r-- 1 sunbeam sunbeam  516 May 31 18:39 index.txt
+-rw-rw-r-- 1 sunbeam sunbeam    0 May 31 18:28 Test1.txt
+-rw-rw-r-- 1 sunbeam sunbeam    0 May 31 18:28 Test2.txt
+-rw-rw-r-- 1 sunbeam sunbeam    0 May 31 18:28 Test3.txt
+drwxrwxr-x 4 sunbeam sunbeam 4096 May 31 17:54 Multimedia
+-rw-rw-r-- 1 sunbeam sunbeam   48 May 31 17:46 command08.txt
+
+
+------------------------------------------------------------------------------------------------
+2) 
+ls -l -h -S
+total 24K
+drwxrwxr-x 4 sunbeam sunbeam 4.0K May 31 17:54 Multimedia
+-rw-rw-r-- 1 sunbeam sunbeam 2.7K May 31 19:07 Assignment01.txt
+-rw-rw-r-- 1 sunbeam sunbeam  584 Jun  1 17:14 Assignment02.txt
+-rw-rw-r-- 1 sunbeam sunbeam  516 May 31 18:39 index.txt
+-rw-rw-r-- 1 sunbeam sunbeam  252 May 31 18:39 index1.txt
+-rw-rw-r-- 1 sunbeam sunbeam   48 May 31 17:46 command08.txt
+-rw-rw-r-- 1 sunbeam sunbeam    0 May 31 18:28 Test1.txt
+-rw-rw-r-- 1 sunbeam sunbeam    0 May 31 18:28 Test2.txt
+-rw-rw-r-- 1 sunbeam sunbeam    0 May 31 18:28 Test3.txt
+------------------------------------------------------------------------------------------------
+3)
+ls -i
+11034051 Assignment01.txt  11036977 index1.txt  11014583 Test1.txt
+11031299 Assignment02.txt  11036994 index.txt   11036987 Test2.txt
+11036876 command08.txt     11021463 Multimedia  11036993 Test3.txt
+------------------------------------------------------------------------------------------------
+4)
+ls -R OS_lab_practice/
+OS_lab_practice/:
+Assignment01.txt  command08.txt  index.txt   Test1.txt  Test3.txt
+Assignment02.txt  index1.txt     Multimedia  Test2.txt
+
+OS_lab_practice/Multimedia:
+Movies  Songs
+
+OS_lab_practice/Multimedia/Movies:
+Bollywood
+
+OS_lab_practice/Multimedia/Movies/Bollywood:
+3idiots.txt  Hindi
+
+OS_lab_practice/Multimedia/Movies/Bollywood/Hindi:
+
+OS_lab_practice/Multimedia/Songs:
+newSongs  oldSongs
+
+OS_lab_practice/Multimedia/Songs/newSongs:
+mixed
+
+OS_lab_practice/Multimedia/Songs/newSongs/mixed:
+oldSongs
+
+OS_lab_practice/Multimedia/Songs/newSongs/mixed/oldSongs:
+KishoreKumar.txt
+
+OS_lab_practice/Multimedia/Songs/oldSongs:
+4idiots.txt  KishoreKumar.txt
+
+------------------------------------------------------------------------------------------------
+5)
+
+cat > Question05.txt
+Patil Rohit
+
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice$ cat >> Question05.txt 
+Tiranga Colony Galli No 1, Ichalaranji Kolhapur
+
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice$ cat Question05.txt 
+Patil Rohit
+Tiranga Colony Galli No 1, Ichalaranji Kolhapur
+------------------------------------------------------------------------------------------------
+6)
+touch Question05.txt 
+------------------------------------------------------------------------------------------------
+7)
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice$ mkdir one
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice$ cd one
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice/one$ touch 1.txt 11.txt 111.txt
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice/one$ mkdir two
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice/one$ cd two
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice/one/two$ touch 2.txt 22.txt 222.txt
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice/one/two$ mkdir three
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice/one/two$ cd three
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice/one/two/three$ touch 3.txt 33.txt 333.txt
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice/one/two/three$ mkdir four
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice/one/two/three$ cd four
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice/one/two/three/four$ touch 4.txt 44.txt 444.txt
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice/one/two/three/four$ mkdir five
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice/one/two/three/four$ cd five
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice/one/two/three/four/five$ touch 5.txt 55.txt 555.txt
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice/one/two/three/four/five$ cd ~
+
+------------------------------------------------------------------------------------------------
+
+8)
+
+ls /home/sunbeam/Documents/Pg_DAC/OS_lab_practice/one/two/three/four/five/
+555.txt  55.txt  5.txt
+
+cd /home/sunbeam/Documents/Pg_DAC/OS_lab_practice/one/two/three/four/
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice/one/two/three/four$ cat >> 44.txt 
+Rohit Patil
+
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~$ rm -R /home/sunbeam/Documents/Pg_DAC/OS_lab_practice/one/two/three/four/five/555.txt
+
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~$ cd /home/sunbeam/Documents/Pg_DAC/OS_lab_practice/one/two/three/four/five
+
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice/one/two/three/four/five$ cat >> ../../3.txt 
+PG-DAC 
+
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice/one/two/three/four/five$ cat ../../3.txt 
+PG-DAC 
+
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice/one/two/three/four/five$ ls ../../../
+222.txt  22.txt  2.txt  three
+
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice/one/two/three/four/five$ rm ../../../222.txt
+
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice/one/two/three/four/five$ cd ../../../../
+
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice/one$ rm -R two/three/four/five
+
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice/one$ ls two/three/four/
+444.txt  44.txt  4.txt
+
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice/one$ rm -R two/three/four
+
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice/one$ cd ~
+
+------------------------------------------------------------------------------------------------
+9)
+
+$ cd Documents/Pg_DAC/OS_lab_practice/one/two/three/
+
+sunbeam@sunbeam-IdeaPad-L340-15IRH-Gaming:~/Documents/Pg_DAC/OS_lab_practice/one/two/three$ touch 3.txt 
+
+------------------------------------------------------------------------------------------------
+
+
+
